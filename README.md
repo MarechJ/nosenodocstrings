@@ -3,10 +3,21 @@ A small plugin that prevents nosetests from display docstrings instead of functi
 
 ## Install
 
-   python setup.py install
+```bash
+python setup.py install
+```
 
 Works with python3 and python2
 
 ## Usage
 
-   nosetests -v --with-nodocstrings
+```bash
+nosetests -v --with-nodocstrings
+```
+
+## Notes
+
+Will work only with function.
+It should be easy enough to add methods as well.
+
+Enjoy.
